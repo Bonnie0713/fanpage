@@ -1,0 +1,28 @@
+body{
+background-image: url(brown.jpeg);
+height: 200vh;
+margin: 0;
+overflow: scroll;
+}
+
+.title{
+    color: white;
+    justify-content: center;
+    display:flex;
+    font-family:'Indie Flower', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.sub-title{
+    color: white;
+    justify-content: center;
+    display:flex;
+    font-family:'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
