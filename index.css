@@ -1,28 +1,55 @@
 body{
-background-image: url(brown.jpeg);
-height: 200vh;
+background-image: url(./images/brown.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300vh;
 margin: 0;
 overflow: scroll;
 }
 
+.center{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
 .title{
     color: white;
-    justify-content: center;
-    display:flex;
-    font-family:'Indie Flower', cursive;
+    font-family:"Lucida Console", Courier, monospace;
     font-size: 60px;
     text-align: center;
-    padding-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .sub-title{
     color: white;
-    justify-content: center;
-    display:flex;
     font-family:'Indie Flower', cursive;
     font-size: 30px;
     text-align: center;
 }
+
+.logo-container{
+    width: 660px;
+    height: auto;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleContainer {
+    top: 0;
+}
+
+.logoContain{
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
 
 
 
