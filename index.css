@@ -17,16 +17,17 @@ overflow: scroll;
 
 .title{
     color: white;
-    font-family:"Lucida Console", Courier, monospace;
+    font-family:"Lucida Console", Fantasy, monospace;
     font-size: 60px;
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
+    padding-top: 2%;
 }
 
 .sub-title{
     color: white;
-    font-family:'Indie Flower', cursive;
-    font-size: 30px;
+    font-family:'Indie Flower', Fantasy;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -43,13 +44,74 @@ overflow: scroll;
 }
 
 .logoContain{
-    height: 80vh;
+    height: 76vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
+.mysta-word{
+    font-size: 100px;
+    position: absolute;
+    font-family:Tahoma, Helvetica, fantasy;
+    /* font-style: italic; */
+    font-weight: bold;
+    -webkit-text-fill-color:#C3552B;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    top: 75vh;
+    left:6vw;
+    
+}
 
+.shu-word{
+    font-size: 100px;
+    position: absolute;
+    font-family:Tahoma, Helvetica, fantasy;
+    font-weight: bold;
+    -webkit-text-fill-color:#A660A7;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    top: 40vh;
+    left: 40vh;
+}
+
+.luca-word{
+    font-size: 100px;
+    position: absolute;
+    font-family:Tahoma, Helvetica, fantasy;
+    font-weight: bold;
+    -webkit-text-fill-color:#D4AF37;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    top: 25vh;
+    left: 85vh;
+}
+
+.vox-word{
+    font-size: 100px;
+    position: absolute;
+    font-family:Tahoma, Helvetica, fantasy;
+    font-weight: bold;
+    -webkit-text-fill-color:#960018;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    top: 40vh;
+    left: 70%;
+}
+
+.ike-word{
+    font-size: 100px;
+    position: absolute;
+    font-family:Tahoma, Helvetica, fantasy;
+    font-weight: bold;
+    -webkit-text-fill-color:#348EC7;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    top: 75vh;
+    left: 80%;
+}
+}
 
 
 
