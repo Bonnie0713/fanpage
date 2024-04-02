@@ -83,7 +83,7 @@ overflow: scroll;
     -webkit-text-fill-color:#D4AF37;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
-    top: 15vh;
+    top: 20vh;
     left: 45%;
 }
 
@@ -115,9 +115,54 @@ overflow: scroll;
     font-family: cursive;
     font-size:40px;
     color: white;
-
+    padding-left:35px;
 }
 
+.img-contain{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.mysta-img{
+    width: 15vw;
+    /* left:2vw; */
+}
 
+.shu-img{
+    width: 15vw;
+    /* left:20vw; */
+}
+
+.luca-img{
+    width: 15vw;
+    /* left:38vw; */
+}
+
+.vox-img{
+    width: 15vw;
+    /* left:60vw; */
+}
+
+.ike-img{
+    width: 15vw;
+}
+
+.music{
+    display:flex;
+    color: white;
+    font-family:"Lucida Console", Fantasy, monospace;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.music-contain{
+    
+}
 
