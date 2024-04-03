@@ -112,7 +112,7 @@ overflow: scroll;
 }
 
 .set{
-    font-family: cursive;
+    font-family: Snell Roundhand, cursive;
     font-size:40px;
     color: white;
     padding-left:35px;
@@ -125,27 +125,7 @@ overflow: scroll;
     justify-content: space-around;
 }
 
-.mysta-img{
-    width: 15vw;
-    /* left:2vw; */
-}
-
-.shu-img{
-    width: 15vw;
-    /* left:20vw; */
-}
-
-.luca-img{
-    width: 15vw;
-    /* left:38vw; */
-}
-
-.vox-img{
-    width: 15vw;
-    /* left:60vw; */
-}
-
-.ike-img{
+.Limg{
     width: 15vw;
 }
 
@@ -159,10 +139,60 @@ overflow: scroll;
     font-size: 60px;
     text-align: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .music-contain{
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2.5%;
+    margin-bottom: 2.5%;
+    width: 660px;
+
 }
 
+.hope{
+    width:20vw;
+    height: auto;
+    padding-right: 10vh;
+    margin-bottom:10%;
+    transition: ease.5s;
+}
+.hope:hover{
+    transform: scale(.95);
+
+}
+
+.song-name{
+    position: absolute;
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    color: white;
+    left: 30%;
+    top: 230%;
+}
+.song-name2{
+    position: absolute;
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    color: white;
+    left: 30%;
+    top: 275%;
+}
+
+
+.smt-else{
+    position:absolute;
+    text-align: right;
+    font-family: Snell Roundhand, cursive;
+    font-size: 30px;
+    color: white;
+    top: 295%;
+    right: 50px;
+    transition: ease.5s;
+}
+
+.smt-else:hover{
+    transform: scale(.95); 
+}

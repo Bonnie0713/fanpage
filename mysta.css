@@ -1,0 +1,31 @@
+body{
+    background-image: url(./images/orange.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    overflow:hidden;
+}
+
+.tit
+{
+
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: Snell Roundhand, cursive;
+    margin: 2%;
+    
+}
+
+.back{
+    position: absolute;
+    padding-left: 2vw;
+    /* padding-top: 1vw; */
+}
+.imgg{
+    width: 10vw;
+    
+}
+
+
