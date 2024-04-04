@@ -1,3 +1,10 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url(./images/IndieFlower-Regular.ttf);
+}
+
+
+
 body{
 background-image: url(./images/brown.jpeg);
 background-repeat: no-repeat;
@@ -17,7 +24,7 @@ overflow: scroll;
 
 .title{
     color: white;
-    font-family:"Lucida Console", Fantasy, monospace;
+    font-family:"IndieFlower";
     font-size: 60px;
     text-align: center;
     margin-bottom: 2vh;
@@ -26,7 +33,7 @@ overflow: scroll;
 
 .sub-title{
     color: white;
-    font-family:'Indie Flower', Fantasy;
+    font-family:"Indie Flower";
     font-size: 50px;
     text-align: center;
 }
@@ -127,6 +134,11 @@ overflow: scroll;
 
 .Limg{
     width: 15vw;
+    transition: ease.5s;
+}
+
+.Limg:hover{
+    transform: scale(.7);
 }
 
 .music{
@@ -156,7 +168,7 @@ overflow: scroll;
     width:20vw;
     height: auto;
     padding-right: 10vh;
-    margin-bottom:10%;
+    /* margin-bottom:10%; */
     transition: ease.5s;
 }
 .hope:hover{
@@ -187,7 +199,9 @@ overflow: scroll;
     text-align: right;
     font-family: Snell Roundhand, cursive;
     font-size: 30px;
-    color: white;
+    -webkit-text-fill-color:#3a3d3f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(116, 96, 96);
     top: 295%;
     right: 50px;
     transition: ease.5s;

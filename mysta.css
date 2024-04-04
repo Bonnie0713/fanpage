@@ -6,26 +6,41 @@ body{
     overflow:hidden;
 }
 
-.tit
-{
-
+.middle-con{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.title{
     justify-content: center;
     text-align: center;
     color: black;
     font-size: 80px;
     font-family: Snell Roundhand, cursive;
     margin: 2%;
-    
 }
 
 .back{
     position: absolute;
     padding-left: 2vw;
     /* padding-top: 1vw; */
+    transition: ease .1s;
+}
+
+.back:hover{
+    transform:scale(1.2);
 }
 .imgg{
     width: 10vw;
     
 }
+
+.mystaa{
+    width: 30vw;
+   
+
 
 
