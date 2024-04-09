@@ -20,7 +20,8 @@ body{
     color: black;
     font-size: 80px;
     font-family: Snell Roundhand, cursive;
-    margin: 2%;
+    margin-top: 1%;
+    margin-bottom: 0%;
 }
 
 .back{
@@ -28,18 +29,65 @@ body{
     padding-left: 2vw;
     /* padding-top: 1vw; */
     transition: ease .1s;
+    top: 2vh;
 }
 
 .back:hover{
     transform:scale(1.2);
 }
 .imgg{
-    width: 10vw;
-    
+    width: 10vw;   
 }
 
-.mystaa{
+.set-up{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family:Snell Roundhand, cursive;
+    /* margin: 1%; */
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+/* .mystaa{
     width: 30vw;
+} */
+
+.circular-container {
+    display: flex;
+    justify-content: center;
+    width: 40%; /* Adjust the width as needed */
+    height: 40%; /* Adjust the height as needed */
+    left:50%;
+    top: 50%;
+    
+  }
+  
+  .circular-photo {
+    border-radius: 50%; /* Make the image circular */
+    width: 20%;
+    height: auto;
+    
+  }
+  
+  .text {
+    position: absolute;
+    transform-origin: 50% 100%; /* Set the transform origin to the bottom center */
+    text-align: center;
+  }
+  
+  .text-1 {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) rotate(-30deg); /* Adjust rotation angle as needed */
+  }
+  
+  .text-2 {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(60deg); /* Adjust rotation angle as needed */
+  }
    
 
 

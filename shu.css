@@ -1,0 +1,59 @@
+body{
+    background-image: url(./images/purple.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    overflow:hidden;
+}
+
+.mid{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: Snell Roundhand, cursive;
+    margin: 2%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.back{
+    position: absolute;
+    padding-left: 2vw;
+    top:2vh;
+    /* padding-top: 1vw; */
+    transition: ease .1s;
+}
+
+.back:hover{
+    transform:scale(1.2);
+}
+
+.set-up{
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family:Snell Roundhand, cursive;
+    margin: 1%;
+    font-weight: 100;
+    margin-bottom: 2%;
+
+}
+
+.imgg{
+    width: 10vw;
+    
+}
+
+.shuuu{
+    width: 30vw;
+}

@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/yellow.png);
+    background-image: url(./images/blue.png);
     background-repeat: no-repeat;
     background-size: cover; 
     margin: 0;
@@ -27,7 +27,7 @@ body{
 .back{
     position: absolute;
     padding-left: 2vw;
-    top:2vh;
+    top: 3vh;
     /* padding-top: 1vw; */
     transition: ease .1s;
 }
@@ -44,15 +44,12 @@ body{
     font-family:Snell Roundhand, cursive;
     margin: 1%;
     font-weight: 100;
-    margin-bottom: 2%;
-
 }
 
 .imgg{
-    width: 10vw;
-    
+    width: 9vw;  
 }
 
-.lucaaa{
+.ikeee{
     width: 30vw;
 }

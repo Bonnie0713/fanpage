@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/yellow.png);
+    background-image: url(./images/red.png);
     background-repeat: no-repeat;
     background-size: cover; 
     margin: 0;
@@ -17,7 +17,7 @@ body{
 .title{
     justify-content: center;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 80px;
     font-family: Snell Roundhand, cursive;
     margin-top: 1%;
@@ -27,7 +27,6 @@ body{
 .back{
     position: absolute;
     padding-left: 2vw;
-    top:2vh;
     /* padding-top: 1vw; */
     transition: ease .1s;
 }
@@ -39,7 +38,7 @@ body{
 .set-up{
     justify-content: center;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-family:Snell Roundhand, cursive;
     margin: 1%;
@@ -48,11 +47,12 @@ body{
 
 }
 
+
 .imgg{
     width: 10vw;
     
 }
 
-.lucaaa{
-    width: 30vw;
+.voxxx{
+    width: 30.5vw;
 }
