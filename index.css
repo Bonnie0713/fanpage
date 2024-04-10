@@ -55,65 +55,55 @@ overflow: scroll;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    width: 100%;
 }
 
-.mysta-word{
-    font-size: 100px;
-    position: absolute;
-    font-family:Comic Sans MS, cursive;
-    font-weight: bold;
-    -webkit-text-fill-color:#C3552B;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    top: 70vh;
-    left:6vw;
+.word-contain{   
+    position: relative;
     
 }
 
-.shu-word{
+.titleword{
     font-size: 100px;
-    position: absolute;
     font-family:Comic Sans MS, cursive;
     font-weight: bold;
-    -webkit-text-fill-color:#A660A7;
+    margin: 0%;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.mysta-word{
+    position: absolute;
+    -webkit-text-fill-color:#C3552B;
+    top: 70vh;
+    left:6vw;
+}
+
+.shu-word{
+    position: absolute;
+    -webkit-text-fill-color:#A660A7;
     top: 35vh;
     left: 40vh;
 }
 
 .luca-word{
-    font-size: 100px;
     position: absolute;
-    font-family:Comic Sans MS, cursive;
-    font-weight: bold;
     -webkit-text-fill-color:#D4AF37;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
     top: 20vh;
     left: 45%;
 }
 
 .vox-word{
-    font-size: 100px;
     position: absolute;
-    font-family:Comic Sans MS, cursive;
-    font-weight: bold;
     -webkit-text-fill-color:#960018;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
     top: 35vh;
     left: 70%;
 }
 
 .ike-word{
-    font-size: 100px;
     position: absolute;
-    font-family:Comic Sans MS, cursive;
-    font-weight: bold;
     -webkit-text-fill-color:#348EC7;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
     top: 70vh;
     left: 80%;
 }
@@ -130,15 +120,19 @@ overflow: scroll;
     height: auto;
     align-items: center;
     justify-content: space-around;
+    /* position: relative; */
+    width: 100%;
 }
 
 .Limg{
     width: 15vw;
-    transition: ease.5s;
+    transition: ease.9s;
+    opacity: 1.0;
 }
 
 .Limg:hover{
-    transform: scale(.7);
+    transform: scale(0.8);
+    opacity: 0.3;
 }
 
 .music{
@@ -168,7 +162,7 @@ overflow: scroll;
     width:20vw;
     height: auto;
     padding-right: 10vh;
-    /* margin-bottom:10%; */
+    margin-bottom:10%;
     transition: ease.5s;
 }
 .hope:hover{
