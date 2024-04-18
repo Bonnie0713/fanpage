@@ -1,3 +1,8 @@
+@font-face {
+    font-family: IndieFlower;
+    src: url(./images/IndieFlower-Regular.ttf);
+}
+
 body{
     background-image: url(./images/purple.png);
     background-repeat: no-repeat;
@@ -55,5 +60,61 @@ body{
 }
 
 .shuuu{
-    width: 30vw;
+    width: 26vw;
 }
+
+.wordContain0{
+    position: absolute;
+    /* display: flex; */
+    font-family:"IndieFlower";
+    font-size: 65px;
+    width: 30%;
+    height: auto;
+    top: 25%;
+    text-align: right;
+    left: 6%;
+    color: white;
+}
+
+.wordContain1{
+    position: absolute;
+    /* display: flex; */
+    font-family:"IndieFlower";
+    font-size: 65px;
+    width: 30%;
+    height: auto;
+    top: 25%;
+    text-align: left;
+    right: 6%;
+    color: white;
+}
+
+.YTB{
+    position: absolute;
+    top: 62.5%;
+    right: 11%;
+    z-index: 10;
+    height: auto;
+    display: block;
+    transition: ease.9s;
+}
+
+.YTB:hover{
+    transform: scale(0.4);
+}
+
+.bird{
+    position: absolute;
+    top: 72.5%;
+    right: 6.5%;
+    z-index: 10;
+    height: auto;
+    display: block;  
+    transition: ease.9s;
+}
+
+.bird:hover{
+    transform: scale(0.4);
+}
+
+

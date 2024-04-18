@@ -15,6 +15,10 @@ overflow: scroll;
 overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .center{
     flex-direction: column;
     justify-content: center;
