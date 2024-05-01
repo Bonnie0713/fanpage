@@ -160,41 +160,23 @@ overflow-x: hidden;
     width: 100%;   
 }
 
-.mystaSpot{
-    /* This contains most of the properties such as width, transition and position */
+
+.Luimg{
+    opacity: 1.0;
     width: 15vw; 
     transition: ease.9s;
-    position: relative;
-
 }
 
-.Limg{
-    /* This has the opacity for the first image so is showing first */
-    opacity: 1.0;
-}
-
-.Limg:hover{
-    /* This makes it so that Limg will get smaller and disappear */
+/* img{
+    width: 100%;
+    display: block;
+    margin:0;
+} */
+.Luimg:hover{
     transform: scale(0.8);
-    opacity: 0;
     z-index: 1;
 }
 
-.Limg2{
-    /* This has the opacity of the second image so it doesn't show up first */
-    opacity: 0;
-    z-index: 2;
-}
-
-
-.Limg:hover ~ .Limg2{
-    /* This is to have the second image after the hover */
-
-    /* issue is try to find a way to have them overlap each other will have both image to have the same property */
-    transform: scale(0.8);
-    opacity: 0.3;
-  
-}
 
 
 
