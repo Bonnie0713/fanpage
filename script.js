@@ -23,7 +23,7 @@ function resetshu() {
 }
 
 function hovershu() {
-    shu.src = "images/shunew.png"
+    shu.src = "images/Shunew.png"
 }
 
 //
